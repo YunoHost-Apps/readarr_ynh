@@ -24,7 +24,7 @@ Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent u
 
 ## Screenshots
 
-![Screenshot of Readarr](./doc/screenshots/example.jpg)
+![Screenshot of Readarr](./doc/screenshots/calendar.png)
 
 ## Documentation and resources
 
