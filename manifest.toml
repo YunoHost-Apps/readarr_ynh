@@ -13,8 +13,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "GPL-3.0"
-website = "https://example.com"
-demo = "https://demo.example.com"
+website = "https://readarr.com/"
 admindoc = "https://wiki.servarr.com/readarr/installation/linux"
 code = "https://github.com/Readarr/Readarr"
 fund = "https://readarr.com/donate"
