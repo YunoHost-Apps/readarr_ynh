@@ -20,15 +20,13 @@ Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent u
 
 **Shipped version:** 0.3.6.2232~ynh1
 
-**Demo:** https://demo.example.com
-
 ## Screenshots
 
 ![Screenshot of Readarr](./doc/screenshots/calendar.png)
 
 ## Documentation and resources
 
-* Official app website: <https://example.com>
+* Official app website: <https://readarr.com/>
 * Official admin documentation: <https://wiki.servarr.com/readarr/installation/linux>
 * Upstream app code repository: <https://github.com/Readarr/Readarr>
 * Report a bug: <https://github.com/YunoHost-Apps/readarr_ynh/issues>
