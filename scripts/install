@@ -48,6 +48,16 @@ yunohost service add $app --description="Book Manager and Automation" --log="/va
 #chown $app:$app "$install_dir/some_config_file"
 
 #=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Configuring $app..." --weight=2
+
+api_key=$(ynh_string_random --length=32)
+ynh_app_setting_set --app=$app --key=api_key --value=$api_key
+
+ynh_add_config --template="../conf/config.xml" --destination="$data_dir/config.xml"
+
+#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # START SYSTEMD SERVICE

@@ -16,11 +16,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books from your favorite authors and will grab, sort, and rename them. Note that only one type of a given book is supported. If you want both an audiobook and ebook of a given book you will need multiple instances.
+Readarr is an eBook and audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available. It does not manage comics or magazines.
 
 **Shipped version:** 0.3.6.2232~ynh1
-
-**Demo:** https://demo.example.com
 
 ## Screenshots
 
@@ -28,7 +26,7 @@ Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent u
 
 ## Documentation and resources
 
-* Official app website: <https://example.com>
+* Official app website: <https://readarr.com/>
 * Official admin documentation: <https://wiki.servarr.com/readarr/installation/linux>
 * Upstream app code repository: <https://github.com/Readarr/Readarr>
 * Report a bug: <https://github.com/YunoHost-Apps/readarr_ynh/issues>
