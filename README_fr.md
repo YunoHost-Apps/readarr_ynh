@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
+Readarr est un gestionnaire de collections de livres électroniques et de livres audio pour les utilisateurs Usenet et BitTorrent. Il peut surveiller plusieurs flux RSS pour les nouveaux livres de vos auteurs préférés et les récupérer, les trier et les renommer. Notez qu'un seul type d'un livre donné est pris en charge. Si vous souhaitez à la fois un livre audio et un livre électronique d'un livre donné, vous aurez besoin de plusieurs instances.
 
 
 **Version incluse :** 0.3.6.2232~ynh1
@@ -25,7 +25,7 @@ Ceci est une fausse description des fonctionalités de l'app
 
 ## Captures d’écran
 
-![Capture d’écran de Readarr](./doc/screenshots/example.jpg)
+![Capture d’écran de Readarr](./doc/screenshots/calendar.png)
 
 ## Documentations et ressources
 

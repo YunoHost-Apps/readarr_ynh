@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "readarr"
 name = "Readarr"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Book Manager and Automation (Sonarr for Ebooks)"
+description.fr = "Gestionnaire de livres et automatisation (Sonarr pour livres électroniques)"
 
 version = "0.3.6.2232~ynh1"
 
@@ -17,11 +17,12 @@ website = "https://example.com"
 demo = "https://demo.example.com"
 admindoc = "https://wiki.servarr.com/readarr/installation/linux"
 code = "https://github.com/Readarr/Readarr"
+fund = "https://readarr.com/donate"
 
 [integration]
 yunohost = ">= 11.2"
 architectures = "all"
-multi_instance = true
+multi_instance = false
 
 ldap = false
 
@@ -60,6 +61,10 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    api.url = "/api"
+    api.show_tile = false
+    api.allowed = "visitors"
+    api.auth_header = false
 
     [resources.ports]
     main.default = 8787
