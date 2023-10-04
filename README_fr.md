@@ -21,15 +21,13 @@ Readarr est un gestionnaire de collections de livres électroniques et de livres
 
 **Version incluse :** 0.3.6.2232~ynh1
 
-**Démo :** https://demo.example.com
-
 ## Captures d’écran
 
 ![Capture d’écran de Readarr](./doc/screenshots/calendar.png)
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://example.com>
+* Site officiel de l’app : <https://readarr.com/>
 * Documentation officielle de l’admin : <https://wiki.servarr.com/readarr/installation/linux>
 * Dépôt de code officiel de l’app : <https://github.com/Readarr/Readarr>
 * Signaler un bug : <https://github.com/YunoHost-Apps/readarr_ynh/issues>
