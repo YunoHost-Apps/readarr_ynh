@@ -13,5 +13,5 @@
   <LaunchBrowser>False</LaunchBrowser>
   <SslCertPassword></SslCertPassword>
   <AnalyticsEnabled>False</AnalyticsEnabled>
-  <InstanceName>Radarr</InstanceName>
+  <InstanceName>Readarr</InstanceName>
 </Config>
