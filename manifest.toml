@@ -21,7 +21,7 @@ code = "https://github.com/Readarr/Readarr"
 [integration]
 yunohost = ">= 11.2"
 architectures = "all"
-multi_instance = true
+multi_instance = false
 
 ldap = false
 
