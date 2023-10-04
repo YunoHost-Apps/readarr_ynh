@@ -17,6 +17,7 @@ website = "https://example.com"
 demo = "https://demo.example.com"
 admindoc = "https://wiki.servarr.com/readarr/installation/linux"
 code = "https://github.com/Readarr/Readarr"
+fund = "https://readarr.com/donate"
 
 [integration]
 yunohost = ">= 11.2"
