@@ -25,7 +25,7 @@ Readarr est un gestionnaire de collections de livres électroniques et de livres
 
 ## Captures d’écran
 
-![Capture d’écran de Readarr](./doc/screenshots/example.jpg)
+![Capture d’écran de Readarr](./doc/screenshots/calendar.png)
 
 ## Documentations et ressources
 
