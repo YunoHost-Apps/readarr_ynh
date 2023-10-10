@@ -7,7 +7,7 @@ name = "Readarr"
 description.en = "Book Manager and Automation (Sonarr for Ebooks)"
 description.fr = "Gestionnaire de livres et automatisation (Sonarr pour livres électroniques)"
 
-version = "0.3.6.2232~ynh1"
+version = "2.0.0.4645~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -48,8 +48,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/Readarr/Readarr/releases/download/v0.3.6.2232/Readarr.develop.0.3.6.2232.linux-core-x64.tar.gz"
-        sha256 = "1f8f168ea4401bb23e20f84200db89d77ec8c025e44dae6fadf8795a6e2d3b21"
+        url = "https://github.com/Readarr/Readarr/archive/refs/tags/v2.0.0.4645.tar.gz"
+        sha256 = "cca8736017dd1d3289f7e3169f8f918aadb6b6e9b611d447bfb715bef1aed0e5"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
