@@ -29,6 +29,7 @@ Readarr is an eBook and audiobook collection manager for Usenet and BitTorrent u
 * Official app website: <https://readarr.com/>
 * Official admin documentation: <https://wiki.servarr.com/readarr/installation/linux>
 * Upstream app code repository: <https://github.com/Readarr/Readarr>
+* YunoHost Store: <https://apps.yunohost.org/app/readarr>
 * Report a bug: <https://github.com/YunoHost-Apps/readarr_ynh/issues>
 
 ## Developer info
