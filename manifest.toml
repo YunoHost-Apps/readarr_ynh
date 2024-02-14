@@ -9,7 +9,7 @@ description.fr = "Gestionnaire de livres et automatisation (Sonarr pour livres Ã
 
 version = "0.3.6.2232~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "GPL-3.0"
