@@ -26,6 +26,18 @@ ynh_script_progression --message="Updating NGINX web server configuration..." --
 ynh_change_url_nginx_config
 
 #=================================================
+# SPECIFIC MODIFICATIONS
+#=================================================
+# UPDATE CONFIGURATION FILE
+#=================================================
+
+ynh_exec_warn_less 'ynh_add_config --template="../conf/config.xml" --destination="$data_dir/config.xml"'
+
+chmod 750 "$data_dir/config.xml"
+chmod o-rwx "$data_dir/config.xml"
+chown $app "$data_dir/config.xml"
+
+#=================================================
 # GENERIC FINALISATION
 #=================================================
 # START SYSTEMD SERVICE
