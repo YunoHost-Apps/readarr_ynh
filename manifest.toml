@@ -7,7 +7,7 @@ name = "Readarr"
 description.en = "Book Manager and Automation (Sonarr for Ebooks)"
 description.fr = "Gestionnaire de livres et automatisation (Sonarr pour livres électroniques)"
 
-version = "0.3.19.2437~ynh1"
+version = "0.3.19.2437~ynh2"
 
 maintainers = []
 
@@ -22,9 +22,7 @@ fund = "https://opencollective.com/readarr"
 yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = false
-
 ldap = false
-
 sso = false
 
 disk = "50M"
