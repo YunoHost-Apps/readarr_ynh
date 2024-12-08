@@ -5,7 +5,9 @@
 
 # Readarr для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/readarr.svg)](https://ci-apps.yunohost.org/ci/apps/readarr/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/readarr.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/readarr.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/readarr)](https://ci-apps.yunohost.org/ci/apps/readarr/)
+![Состояние работы](https://apps.yunohost.org/badge/state/readarr)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/readarr)
 
 [![Установите Readarr с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=readarr)
 

@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Readarr for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/readarr.svg)](https://ci-apps.yunohost.org/ci/apps/readarr/) ![Working status](https://ci-apps.yunohost.org/ci/badges/readarr.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/readarr.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/readarr)](https://ci-apps.yunohost.org/ci/apps/readarr/)
+![Working status](https://apps.yunohost.org/badge/state/readarr)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/readarr)
 
 [![Install Readarr with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=readarr)
 
