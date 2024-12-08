@@ -46,12 +46,21 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-x64.tar.gz"
-        sha256 = "b8d6508b3bce3f280ff8b5720401ac84171f8c2e2bad7f661ad6aabfca4158a0"
-
-        # autoupdater disabled as we're using pre releases
-        # autoupdate.strategy = "latest_github_tag"
-        # autoupdate.asset = "^Readarr.develop.*linux-core-x64.tar.gz$"
+        amd64.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-x64.tar.gz"
+        amd64.sha256 = "b8d6508b3bce3f280ff8b5720401ac84171f8c2e2bad7f661ad6aabfca4158a0"
+        arm64.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-arm64.tar.gz"
+        arm64.sha256 = "eb05ea519d43dc4dcb07e165243850d1755ac07610d90b6201839e24a66ffde9"
+        armhf.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-arm.tar.gz"
+        armhf.sha256 = "912abf89feebaf9533709ec0cf1fa1d6356de1946a07ec22be015d5f49b7ac13"
+        i386.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-x86.tar.gz"
+        i386.sha256 = "7235abb533d9d41042d9c22ccfa88a5f50dc709a7f97df1423333105782618d4"
+        
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset.amd64 = "^Readarr.develop.*linux-core-x64.tar.gz$"
+        autoupdate.asset.arm64 = "^Readarr.develop.*linux-core-arm64.tar.gz$"
+        autoupdate.asset.armhf = "^Readarr.develop.*linux-core-arm.tar.gz$"
+        autoupdate.asset.i386 = "^Readarr.develop.*linux-core-x86.tar.gz$"
+        autoupdate.allow_prereleases = true
 
     [resources.system_user]
 
