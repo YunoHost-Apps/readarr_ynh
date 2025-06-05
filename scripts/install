@@ -4,7 +4,12 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
+# INITIALIZE AND STORE SETTINGS
+#=================================================
+
+api_key=$(ynh_string_random --length=32)
+ynh_app_setting_set --key=api_key --value=$api_key
+
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
@@ -13,7 +18,6 @@ ynh_script_progression "Setting up source files..."
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 chmod +x "$install_dir/Readarr"
 
 #=================================================
@@ -30,24 +34,16 @@ ynh_config_add_systemd
 yunohost service add $app --description="Book Manager and Automation" --log="/var/log/$app/$app.log"
 
 #=================================================
-# APP INITIAL CONFIGURATION
-#=================================================
 # ADD A CONFIGURATION
 #=================================================
 #ynh_script_progression "Adding $app's configuration..."
 
 #ynh_config_add --template="some_config_file" --destination="$install_dir/some_config_file"
 
-##REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 400 "$install_dir/some_config_file"
-##REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown $app:$app "$install_dir/some_config_file"
-
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression "Configuring $app..."
-
-api_key=$(ynh_string_random --length=32)
-ynh_app_setting_set --key=api_key --value=$api_key
 
 ynh_config_add --template="config.xml" --destination="$data_dir/config.xml"
 
