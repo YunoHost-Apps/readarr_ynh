@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Readarr para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/readarr.svg)](https://dash.yunohost.org/appci/app/readarr) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/readarr.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/readarr.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/readarr)](https://ci-apps.yunohost.org/ci/apps/readarr/)
+![Estado funcional](https://apps.yunohost.org/badge/state/readarr)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/readarr)
 
 [![Instalar Readarr con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=readarr)
 
@@ -18,7 +20,7 @@ No se debe editar a mano.
 
 Readarr is an eBook and audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available. It does not manage comics or magazines.
 
-**Versión actual:** 0.3.19.2437~ynh1
+**Versión actual:** 0.3.19.2437~ynh2
 
 ## Capturas
 
@@ -34,7 +36,7 @@ Readarr is an eBook and audiobook collection manager for Usenet and BitTorrent u
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/readarr_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/readarr_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

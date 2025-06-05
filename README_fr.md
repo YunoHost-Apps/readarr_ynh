@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Readarr pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/readarr.svg)](https://dash.yunohost.org/appci/app/readarr) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/readarr.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/readarr.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/readarr)](https://ci-apps.yunohost.org/ci/apps/readarr/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/readarr)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/readarr)
 
 [![Installer Readarr avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=readarr)
 
@@ -19,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Readarr est un gestionnaire de collections de livres électroniques et de livres audio pour les utilisateurs Usenet et BitTorrent. Il peut surveiller plusieurs flux RSS pour les nouveaux livres de vos auteurs préférés et les récupérer, les trier et les renommer. Notez qu'un seul type d'un livre donné est pris en charge. Si vous souhaitez à la fois un livre audio et un livre électronique d'un livre donné, vous aurez besoin de plusieurs instances.
 
 
-**Version incluse :** 0.3.19.2437~ynh1
+**Version incluse :** 0.3.19.2437~ynh2
 
 ## Captures d’écran
 
