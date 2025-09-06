@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -32,13 +31,6 @@ ynh_config_add_nginx
 ynh_config_add_systemd
 
 yunohost service add $app --description="Book Manager and Automation" --log="/var/log/$app/$app.log"
-
-#=================================================
-# ADD A CONFIGURATION
-#=================================================
-#ynh_script_progression "Adding $app's configuration..."
-
-#ynh_config_add --template="some_config_file" --destination="$install_dir/some_config_file"
 
 #=================================================
 # ADD A CONFIGURATION
