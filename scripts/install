@@ -35,13 +35,6 @@ yunohost service add $app --description="Book Manager and Automation" --log="/va
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-#ynh_script_progression "Adding $app's configuration..."
-
-#ynh_config_add --template="some_config_file" --destination="$install_dir/some_config_file"
-
-#=================================================
-# ADD A CONFIGURATION
-#=================================================
 ynh_script_progression "Configuring $app..."
 
 ynh_config_add --template="config.xml" --destination="$data_dir/config.xml"
