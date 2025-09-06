@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Readarr voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/readarr.svg)](https://ci-apps.yunohost.org/ci/apps/readarr/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/readarr.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/readarr.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/readarr)](https://ci-apps.yunohost.org/ci/apps/readarr/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/readarr)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/readarr)
 
 [![Readarr met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=readarr)
 

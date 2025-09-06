@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Readarr YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/readarr.svg)](https://ci-apps.yunohost.org/ci/apps/readarr/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/readarr.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/readarr.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/readarr)](https://ci-apps.yunohost.org/ci/apps/readarr/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/readarr)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/readarr)
 
 [![Instalatu Readarr YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=readarr)
 

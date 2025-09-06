@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Readarr
 
-[![集成程度](https://dash.yunohost.org/integration/readarr.svg)](https://ci-apps.yunohost.org/ci/apps/readarr/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/readarr.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/readarr.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/readarr)](https://ci-apps.yunohost.org/ci/apps/readarr/)
+![工作状态](https://apps.yunohost.org/badge/state/readarr)
+![维护状态](https://apps.yunohost.org/badge/maintained/readarr)
 
 [![使用 YunoHost 安装 Readarr](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=readarr)
 
