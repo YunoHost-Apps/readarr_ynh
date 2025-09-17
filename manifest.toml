@@ -7,7 +7,7 @@ name = "Readarr"
 description.en = "Book Manager and Automation (Sonarr for Ebooks)"
 description.fr = "Gestionnaire de livres et automatisation (Sonarr pour livres électroniques)"
 
-version = "0.3.19.2437~ynh2"
+version = "0.4.18.2805~ynh1"
 
 maintainers = []
 
@@ -48,14 +48,14 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        amd64.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-x64.tar.gz"
-        amd64.sha256 = "b8d6508b3bce3f280ff8b5720401ac84171f8c2e2bad7f661ad6aabfca4158a0"
-        arm64.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-arm64.tar.gz"
-        arm64.sha256 = "eb05ea519d43dc4dcb07e165243850d1755ac07610d90b6201839e24a66ffde9"
-        armhf.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-arm.tar.gz"
-        armhf.sha256 = "912abf89feebaf9533709ec0cf1fa1d6356de1946a07ec22be015d5f49b7ac13"
-        i386.url = "https://github.com/Readarr/Readarr/releases/download/v0.3.19.2437/Readarr.develop.0.3.19.2437.linux-core-x86.tar.gz"
-        i386.sha256 = "7235abb533d9d41042d9c22ccfa88a5f50dc709a7f97df1423333105782618d4"
+        amd64.url = "https://github.com/Readarr/Readarr/releases/download/v0.4.18.2805/Readarr.develop.0.4.18.2805.linux-core-x64.tar.gz"
+        amd64.sha256 = "842ab11fac4f2e103e57badeaac1e2d44636b14dc727a1123098a2597adc5141"
+        arm64.url = "https://github.com/Readarr/Readarr/releases/download/v0.4.18.2805/Readarr.develop.0.4.18.2805.linux-core-arm64.tar.gz"
+        arm64.sha256 = "ecda47df6b6410e615c9fc0806af4b08a028d0843521e8587ca8beaa20737fca"
+        armhf.url = "https://github.com/Readarr/Readarr/releases/download/v0.4.18.2805/Readarr.develop.0.4.18.2805.linux-core-arm.tar.gz"
+        armhf.sha256 = "19db2a83b03935c1de829f06d1d1af936da69a5e13aaabd9c7947bfee49c3d51"
+        i386.url = "https://github.com/Readarr/Readarr/releases/download/v0.4.18.2805/Readarr.develop.0.4.18.2805.linux-core-x86.tar.gz"
+        i386.sha256 = "08038f06551f348e7dade028923dabd0fe6024c4e93a05adedb7265c3bb9dc7c"
         
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^Readarr.develop.*linux-core-x64.tar.gz$"
